@@ -13,10 +13,10 @@
   "environment": "client",
   "entrypoints": {
     "client": [
-      "md.faiks.korobka.Korobka"
+      "md.faiks.playertrack.PlayerTrack"
     ],
     "modmenu": [
-      "md.faiks.korobka.CONFIG.modMenu"
+      "md.faiks.playertrack.CONFIG.modMenu"
     ]
   },
   "mixins": [

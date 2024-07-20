@@ -1,6 +1,6 @@
-package md.faiks.korobka.osnova;
+package md.faiks.playertrack.osnova;
 
-import md.faiks.korobka.Korobka;
+import md.faiks.playertrack.PlayerTrack;
 import net.fabricmc.api.EnvType;
 import net.fabricmc.api.Environment;
 import net.fabricmc.fabric.api.client.event.lifecycle.v1.ClientTickEvents;
@@ -19,7 +19,7 @@ import java.util.Objects;
 import java.util.Random;
 
 @Environment(EnvType.CLIENT)
-public class korobka implements ClientTickEvents.StartTick {
+public class playerTrack implements ClientTickEvents.StartTick {
 
     public float getSoundPitch() {
         return (new Random().nextFloat() - new Random().nextFloat()) * 0.2F + 1.5F;
@@ -27,13 +27,13 @@ public class korobka implements ClientTickEvents.StartTick {
     public <T> void checkPlayer(T player, ClientPlayerEntity clientPlayer) {
         if (player instanceof OtherClientPlayerEntity otherClientPlayer) {
 
-            if (Objects.equals(otherClientPlayer.getName().getString(), Korobka.getConfig().NICKNAME)) {
+            if (Objects.equals(otherClientPlayer.getName().getString(), PlayerTrack.getConfig().NICKNAME)) {
                 MutableText result = Text.literal(String.valueOf(otherClientPlayer.getName().getString()))
                         .formatted(Formatting.RED, Formatting.BOLD, Formatting.UNDERLINE)
-                        .append(Text.translatable("korobka.pizdec"));
+                        .append(Text.translatable("playertrack.osnova"));
                 clientPlayer.sendMessage(result, true);
-                if(Korobka.getConfig().enableSound && new Random().nextBoolean()){
-                    clientPlayer.playSoundToPlayer(Korobka.soundaaaaaaa,SoundCategory.PLAYERS,0.2f,getSoundPitch());
+                if(PlayerTrack.getConfig().enableSound && new Random().nextBoolean()){
+                    clientPlayer.playSoundToPlayer(PlayerTrack.soundaaaaaaa,SoundCategory.PLAYERS,0.2f,getSoundPitch());
 
                 }
             }
@@ -42,7 +42,7 @@ public class korobka implements ClientTickEvents.StartTick {
 
     @Override
     public void onStartTick(MinecraftClient client) {
-        if (Korobka.getConfig().enable) {
+        if (PlayerTrack.getConfig().enable) {
             if (client.player != null) {
                 ClientPlayerEntity clientPlayer = client.player;
                 if (client.world != null) {

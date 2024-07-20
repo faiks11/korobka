@@ -1,0 +1,14 @@
+
+{
+
+  "playertrack.osnova": " NEAR",
+  "playertrack.config": "CONFIGS",
+
+  "text.autoconfig.playertrack.option.NICKNAME": "Nickname",
+  "text.autoconfig.playertrack.option.enable": "On or off",
+  "text.autoconfig.playertrack.option.enable": "On or off sound",
+
+  "text.autoconfig.playertrack.option.NICKNAME.@Tooltip": "Nickname",
+  "text.autoconfig.playertrack.option.enable.@Tooltip": "On or off",
+  "text.autoconfig.playertrack.option.enable.@Tooltip": "On or off sound"
+}

@@ -1,14 +1,11 @@
-package md.faiks.korobka.CONFIG;
+package md.faiks.playertrack.CONFIG;
 
 
 import me.shedaniel.autoconfig.ConfigData;
 import me.shedaniel.autoconfig.annotation.Config;
 import me.shedaniel.autoconfig.annotation.ConfigEntry;
-import me.shedaniel.cloth.clothconfig.shadowed.blue.endless.jankson.Comment;
-import me.shedaniel.clothconfig2.api.ConfigBuilder;
-import net.minecraft.text.Text;
 
-import static md.faiks.korobka.Korobka.MODID;
+import static md.faiks.playertrack.PlayerTrack.MODID;
 
 @Config(name = MODID)
 public class config implements ConfigData {

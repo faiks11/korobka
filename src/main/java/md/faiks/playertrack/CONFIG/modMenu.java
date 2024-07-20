@@ -1,4 +1,4 @@
-package md.faiks.korobka.CONFIG;
+package md.faiks.playertrack.CONFIG;
 
 import com.terraformersmc.modmenu.api.ConfigScreenFactory;
 import com.terraformersmc.modmenu.api.ModMenuApi;

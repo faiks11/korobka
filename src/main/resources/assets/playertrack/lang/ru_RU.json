@@ -1,0 +1,13 @@
+{
+
+  "playertrack.osnova": " РЯДОМ",
+  "playertrack.config": "КОНФИГИ",
+
+  "text.autoconfig.playertrack.option.NICKNAME": "Никнейм",
+  "text.autoconfig.playertrack.option.enable": "Включенно или нет",
+  "text.autoconfig.playertrack.option.enable": "Включен звук или нет",
+
+  "text.autoconfig.playertrack.option.NICKNAME.@Tooltip": "Ник",
+  "text.autoconfig.playertrack.option.enable.@Tooltip": "Включенно или нет",
+  "text.autoconfig.playertrack.option.enable.@Tooltip": "Включен звук или нет"
+}

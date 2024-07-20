@@ -1,7 +1,7 @@
 {
   "required": true,
   "minVersion": "0.8",
-  "package": "md.faiks.korobka.mixin",
+  "package": "md.faiks.playertrack.mixin",
   "compatibilityLevel": "JAVA_21",
   "mixins": [
   ],
