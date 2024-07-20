@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "korobka",
+  "version": "${version}",
+  "name": "korobka",
+  "description": "",
+  "authors": [],
+  "contact": {
+    "repo": "https://github.com/faiks/korobka"
+  },
+  "license": "All-Rights-Reserved",
+  "icon": "assets/korobka/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "md.faiks.korobka.Korobka"
+    ],
+    "modmenu": [
+      "md.faiks.korobka.CONFIG.modMenu"
+    ]
+  },
+  "mixins": [
+    "korobka.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}

@@ -1,0 +1,13 @@
+{
+
+  "korobka.pizdec": " РЯДОМ",
+  "korobka.config": "КОНФИГИ",
+
+  "text.autoconfig.korobka.option.NICKNAME": "НИКНЕЙМ ПИДОРА",
+  "text.autoconfig.korobka.option.enable": "ВКЛЮЧЕННА ХУЙНЯ ИЛИ НЕТ",
+  "text.autoconfig.korobka.option.enableSound": "ВКЛЮЧЕННА ОРАЛКА ИЛИ НЕТ",
+
+  "text.autoconfig.korobka.option.NICKNAME.@Tooltip": "НИКНЕЙМ ПИДОРА",
+  "text.autoconfig.korobka.option.enable.@Tooltip": "ВКЛЮЧЕННА ХУЙНЯ ИЛИ НЕТ",
+  "text.autoconfig.korobka.option.enableSound.@Tooltip": "ВКЛЮЧЕННА ОРАЛКА ИЛИ НЕТ"
+}
