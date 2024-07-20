@@ -1,12 +1,14 @@
 {
   "schemaVersion": 1,
-  "id": "korobka",
+  "id": "playertrack",
   "version": "${version}",
-  "name": "korobka",
-  "description": "",
-  "authors": [],
+  "name": "PlayerTrack",
+  "description": "A mod notifying you of the presence of a player specified in the configs next to you.",
+  "authors": [
+    "faiks12"
+  ],
   "contact": {
-    "repo": "https://github.com/faiks/korobka"
+    "sources": "https://github.com/faiks11/playertrack"
   },
   "license": "All-Rights-Reserved",
   "icon": "assets/korobka/icon.png",
@@ -25,6 +27,15 @@
   "depends": {
     "fabricloader": ">=${loader_version}",
     "fabric": "*",
-    "minecraft": "${minecraft_version}"
+    "minecraft": "${minecraft_version}",
+    "cloth-config": "*"
+  },
+  "suggests": {
+    "modmenu": ">=9"
+  },
+  "custom": {
+    "modmanager": {
+      "modrinth": "cOJARDRW"
+    }
   }
 }
